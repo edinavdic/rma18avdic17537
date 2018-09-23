@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="3">
+
+    <TextView
+        android:id="@+id/eImeAutora"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="2"
+        android:text="imePrezime"
+        android:textColor="@color/ea2903"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/eBrojKnjiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1"
+        android:text="brojK"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="13dp" />
+</LinearLayout>

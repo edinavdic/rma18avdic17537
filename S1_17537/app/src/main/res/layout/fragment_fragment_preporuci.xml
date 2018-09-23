@@ -1,0 +1,41 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ba.unsa.etf.rma.edin.s1_17537.FragmentPreporuci">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/josipal">
+
+        <Spinner
+            android:id="@+id/sKontakti"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"/>
+
+
+        <TextView
+            android:id="@+id/tViewPreview"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:hint="KAKO CE MAIL IZGLEDATI"
+            android:background="#21FF0000"
+            android:textColorHint="@color/brightBlue"
+            android:textColor="@color/brightBlue"/>
+
+        <Button
+            android:id="@+id/dPosalji"
+            android:text="Posalji mail"
+            android:textSize="16sp"
+            android:textColor="@color/ea2903"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+
+</FrameLayout>
